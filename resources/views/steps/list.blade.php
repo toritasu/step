@@ -41,12 +41,6 @@
 
       </ul>
 
-      <!-- ページネーション -->
-      <ul class="c-pagenation">
-        <li class="c-pagenation__item">1</li>
-        <li class="c-pagenation__item">2</li>
-        <li class="c-pagenation__item">3</li>
-      </ul>
     </div>
   </section>
 </main>
