@@ -15,7 +15,7 @@ class StepsTableSeeder extends Seeder
     {
         $param = [
             'user_id' => 1,
-            'title' => '業界未経験の僕が年収1000万のフリーランスエンジニアになるまでの10のSTEP',
+            'title' => 'IT業界未経験から年収1000万のフリーランスエンジニアになる方法',
             'categories' => json_encode(array(1, 6)),
             'estimate' => 7,
             'image' => 'images/programming.jpeg',
@@ -58,7 +58,7 @@ class StepsTableSeeder extends Seeder
             'categories' => json_encode(array(5)),
             'estimate' => 3,
             'image' => 'images/drawing.jpg',
-            'description' => '全てKMYさんのおかげです。',
+            'description' => 'ご縁は大切にしましょう。',
             'delete_flg' => false,
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),

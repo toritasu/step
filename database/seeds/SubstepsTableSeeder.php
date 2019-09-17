@@ -18,7 +18,9 @@ class SubstepsTableSeeder extends Seeder
             [ 'order' => 2, 'title' => 'ドットインストールをやろう！'],
             [ 'order' => 3, 'title' => 'ウェブカツに仮⼊部してみよう！'],
             [ 'order' => 4, 'title' => '簡単なHTMLのサイトを作ってみよう！'],
-            [ 'order' => 5, 'title' => 'ウェブカツに本⼊部しよう！']
+            [ 'order' => 5, 'title' => 'ウェブカツに本⼊部しよう！'],
+            [ 'order' => 6, 'title' => 'ウェブカツの卒業試験に合格しよう！'],
+            [ 'order' => 7, 'title' => '１年程度の実務経験を積もう！'],
         ];
 
         foreach (range(1,5) as $num) {
@@ -28,8 +30,8 @@ class SubstepsTableSeeder extends Seeder
                     'order' => $item['order'],
                     'title' => $item['title'],
                     'description' => 'コツコツ頑張ろう！',
-                    'link' => '模写ポータル「SHAKYO」',
-                    'url' => 'https://shakyo.t-w-d.com/',
+                    'link' => '初心者向けプログラミング学習スクール「ウェブカツ!!」',
+                    'url' => 'https://webukatu.com/',
                     'delete_flg' => false,
                     'created_at' => Carbon::now(),
                     'updated_at' => Carbon::now(),
